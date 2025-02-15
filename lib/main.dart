@@ -3,6 +3,8 @@ import 'dart:io';
 //import 'package:camera/camera.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:image_picker_application/barcode-scanner.dart';
+import 'package:image_picker_application/face-detector.dart';
 import 'package:image_picker_application/home-page.dart';
 import 'package:image_picker_application/live-camera-page.dart';
 
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LiveCamera(title: 'Live Camera Page'),
+      home: FaceDetectionPage(title: 'Barcode ScannerFaceDetectionPage'),
     );
   }
 }
