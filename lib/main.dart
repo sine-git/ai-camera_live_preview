@@ -8,6 +8,7 @@ import 'package:image_picker_application/face-detector.dart';
 import 'package:image_picker_application/home-page.dart';
 import 'package:image_picker_application/live-camera-page.dart';
 import 'package:image_picker_application/object-detector.dart';
+import 'package:image_picker_application/text-recognizer.dart';
 
 List<CameraDescription> cameras = <CameraDescription>[];
 void main() async {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ObjectDetectionPage(title: 'Object Detection'),
+      home: TextRecognizerPage(title: 'Text Recognizer'),
     );
   }
 }
