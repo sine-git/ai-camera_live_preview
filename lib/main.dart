@@ -9,6 +9,7 @@ import 'package:image_picker_application/home-page.dart';
 import 'package:image_picker_application/live-camera-page.dart';
 import 'package:image_picker_application/object-detector.dart';
 import 'package:image_picker_application/pose-detection.dart';
+import 'package:image_picker_application/smart-reply.dart';
 import 'package:image_picker_application/text-recognizer.dart';
 import 'package:image_picker_application/text-translation.dart';
 
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: TextTranslationPage(),
+      home: SmartReplyPage(),
     );
   }
 }
